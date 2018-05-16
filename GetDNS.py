@@ -55,7 +55,7 @@ for vm in vms:
 	dnshosts[VmHostName]=VmIp
 
 for hostname,ip in dnshosts.items():
-	host=ip+" "+hostname+".ad.tuhu.cn"
+	host=ip+" "+hostname+".ad.XX.cn"
 	hosts.append(host)
 for kvmlist in KvmList:
 	hosts.append(kvmlist)
